@@ -58,9 +58,9 @@ class _Attr(typing.NamedTuple):
 
 def format_memory(mb: int) -> str:
     UNITS = [
-        (2 << 30, "P"),
-        (2 << 20, "T"),
-        (2 << 10, "G"),
+        (1 << 30, "P"),
+        (1 << 20, "T"),
+        (1 << 10, "G"),
     ]
 
     for size, unit in UNITS:

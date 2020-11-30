@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hdtop"
-version = "0.1.0"
+version = "0.1.1"
 description = "Top-liked monitoring console for hadoop"
 authors = ["tzing <tzingshih@gmail.com>"]
 license = "Apache-2.0"
